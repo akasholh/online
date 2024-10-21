@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: url('shops.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    text-align: center;
+    height: 400px;
+    
+    background-position: center;
+    
+    
+}
+
+
+header {
+    background-image: url('header-design.png'); /* Add a background image */
+  
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+.action-button {
+    padding: 10px 20px;
+    background-color: #c6e01bf4;
+    color: rgba(196, 193, 193, 0.429);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #02fa49;
+}
+.a-button{
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
+.a-button:hover{
+    background-color: yellow;
+}
+
+table{
+    padding: 3px;
+    margin: auto;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.feature {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(159, 185, 154, 0.771);
+     width: 180px;
+    height: 170px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1cap;
+ 
+    
+}
+
+.feature:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ 
+}
+.bx{
+    background-color: #02fa4872;
+    margin: 7px;
+    padding: 10px;
+     width: 100px;
+    height: 80px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1cap;
+}
+.bx:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    margin-top: 175px;
+    text-align: center;
+    padding: 10px ;
+}
